@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ms-fluid-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ms_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+[class*="col-"] {
+  background-color: magenta;
+  border: 1px solid black;
+}
+
+.hamburger {
+  float: right;
+}

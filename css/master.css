@@ -29,6 +29,10 @@
 .hamburger {
   float: right;
 }
+.hamburger a {
+  color: black;
+  text-decoration: none;
+}
 
 /* Inizio banner */
 .ms_jumbotron {
@@ -50,4 +54,52 @@
 
 .Logos_container {
   width: 70%;
+}
+
+/* Fine banner */
+
+
+/* <!-- Inizio sezione loghi -->
+<!-- Fine sezione loghi --> */
+
+
+/* <!-- Inizio sezione deploy -->
+<!-- Fine sezione deploy --> */
+
+
+/* <!-- Inizio sezione "Designed for developers" -->
+<!-- Fine sezione "Designed for developers" --> */
+
+
+/* <!-- Inizio sezione "The features your business needs" -->
+<!-- Fine sezione "The features your business needs" --> */
+
+
+/* <!-- Inizio sezione "Regions" --!> */
+.speedtest_1 {
+  padding: 20px 0;
+}
+/* <!-- Fine sezione "Regions" --!> */
+
+
+/* <!-- Inizio sezione "Development Team" --> */
+.oceanteam_container {
+  width: 60%;
+  margin: 0 auto;
+}
+/* <!-- Fine sezione "Development Team" --> */
+
+
+/* <!-- Inizio sezione "crea il tuo account" --> */
+/* <!-- Fine sezione "crea il tuo account" --> */
+
+
+/* <!-- Inizio sezione Footer --> */
+.footer_container {
+  background-color: blue;
+  margin: 0 auto;
+  width: 70%;
+}
+footer {
+  background-color: green;
 }

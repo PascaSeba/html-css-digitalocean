@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .ms-fluid-container {
   width: 100%;
   margin: 0 auto;
@@ -18,7 +20,34 @@
   background-color: magenta;
   border: 1px solid black;
 }
+/* Inizio header */
+.header_top {
+  width: 100%;
+  background-color: magenta;
+}
 
 .hamburger {
   float: right;
+}
+
+/* Inizio banner */
+.ms_jumbotron {
+  height: 50vh;
+  background-color: skyblue;
+}
+
+.ms_jumbo_container {
+  width: 95%;
+  height: 20vh;
+  background-color: magenta;
+  margin: 0 auto;
+}
+
+.ms_jumbotron .ms_container {
+  height: 20vh;
+  background-color: magenta;
+}
+
+.Logos_container {
+  width: 70%;
 }

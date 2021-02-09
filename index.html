@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f944c62369.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/master.css">
     <title>Digital Ocean</title>
@@ -15,12 +16,31 @@
         <div class="ms-fluid-container">
           <div class="ms_container">
             <div class="row">
-              <div class="col-xs-6">
-                <span>logo</span>
+              <div class="col-xs-6 col-sm-6 col-md-3 logoclass">
+                <a href="#"><img id="logo" src="img/logo.png" alt=""></a>
               </div>
-              <div class="col-xs-6">
-                <div class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></div>
-              </div>
+
+              <nav>
+                <div class="col-xs-6 col-sm-6 hamburger">
+                  <div class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></div>
+                </div>
+                <div class="col-md-5 menu">
+                  <ul>
+                    <li class="down"><a href="#">Products</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li class="down"><a href="#">Community</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4 menu_2">
+                  <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li class="down"><a href="#">Support</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><button type="button" class="btn btn-light ms_signup_btn">Sign Up</button></li>
+                  </ul>
+                </div>
+              </nav>
             </div>
           </div>
         </div>
@@ -29,16 +49,27 @@
 
 
       <!-- Inizio Banner -->
-      <div class="ms_jumbotron">
-        <div class="ms_jumbo_container">
-          <div class="row container-fluid">
-            <div class="col-xs-6">
-              Simplest
+      <div class="jumbo_container clearfix">
+        <div class="ms_mini_container clearfix">
+          <div class="row clearfix">
+            <div class="col-xs-12 col-sm-6 col-md-6 headertext">
+              <h1 class="headertext_1">The simplest cloud plaltform for developers & teams</h1>
+              <p class="headertext_2">Deploy, manage and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, whether you're runnig one virtual machine or ten thousand.</p>
             </div>
-            <div class="col-xs-6">
-              <div class="Register">
-                Get started now
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 bannerwhite">
+              <h2>Get started now.</h2>
+              <h2 class="blueh2">Deploy your app in seconds.</h2>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button class="btn btn-primary email_btn" type="submit">Create your account</button><br>
+                <button class="btn google_btn" type="submit"><img src="img/google-icon.png" alt="">SignUp with Google</button><br>
+                <small id="emailHelp" class="form-text text-muted">By signing up you agree to the <a href="#">Terms of Service</a>.</small>
+              </form>
             </div>
           </div>
         </div>
@@ -50,38 +81,34 @@
 
     <main>
       <!-- Inizio sezione loghi -->
-      <div class="container-fluid">
+      <div class="container-fluid innovative">
         <div class="row">
-          <div class="col-xs-12">
-            <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <h3 class="text-center">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
+          </div>
+        </div>
+        <div class="row row_innovative">
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_docker.svg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_gitlab.svg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_slack.svg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_hashicorp.svg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_hashicorp.svg" alt="">
+          </div>
+          <div class="col-xs-6 col-sm-2 col-md-2">
+            <img src="img/logo_splunk.svg" alt="">
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-6">
-            1
-          </div>
-          <div class="col-xs-6">
-            2
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6">
-            3
-          </div>
-          <div class="col-xs-6">
-            4
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6">
-            5
-          </div>
-          <div class="col-xs-6">
-            6
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             View customer stories <span>></span>
           </div>
         </div>
@@ -92,26 +119,26 @@
       <!-- Inizio sezione deploy -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             <h1>Deploy and scale seamlessly</h1>
             <p>Loreeeeem Ips and um</p>
           </div>
         </div>
         <div class="deploy_body">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               List
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               Cluster
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               Optimized
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-6 col-md-6">
               One-click
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-6 col-md-6">
               Global
             </div>
           </div>
@@ -123,17 +150,17 @@
       <!-- Inizio sezione "Designed for developers" -->
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             <h2>Designed for developers</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             image
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-12 col-md-12">
             puntini
           </div>
         </div>
@@ -145,31 +172,28 @@
       <div class="container-fluid">
         <div class="business_container">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <h1>The features your business needs</h1>
             </div>
           </div>
 
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <span>image</span>
               <h4>Title1</h4>
               <p>paragraph 1</p>
               <a href="#">Pricing ></a>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <span>image</span>
               <h4>Title 2</h4>
               <p>paragraph 2</p>
               <a href="#">Pricing ></a>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-xs-12">
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
               <span>image</span>
               <h4>Title 3</h4>
               <p>paragraph 3</p>
@@ -185,56 +209,59 @@
       <div class="container-fluid">
         <div class="regionscontainer">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12">
               <h1>Service your customers around the world from 12 regions.</h1>
             </div>
           </div>
 
-          <div class="speedtest_1">
-            <div class="row">
-              <div class="col-xs-12">
-                1
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  1
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  2
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  3
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  4
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  5
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  6
+                </div>
               </div>
-              <div class="col-xs-12">
-                2
-              </div>
-              <div class="col-xs-12">
-                3
-              </div>
-              <div class="col-xs-12">
-                4
-              </div>
-              <div class="col-xs-12">
-                5
-              </div>
-              <div class="col-xs-12">
-                6
+            </div>
+
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  7
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  8
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  9
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  10
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  11
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  12
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="speedtest_2">
-            <div class="row">
-              <div class="col-xs-12">
-                7
-              </div>
-              <div class="col-xs-12">
-                8
-              </div>
-              <div class="col-xs-12">
-                9
-              </div>
-              <div class="col-xs-12">
-                10
-              </div>
-              <div class="col-xs-12">
-                11
-              </div>
-              <div class="col-xs-12">
-                12
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <!-- Fine sezione "Regions"  -->
@@ -244,14 +271,17 @@
       <div class="container-fluid">
         <div class="oceanteam_container">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <h2>Development teams love DigitalOcean</h2>
             </div>
           </div>
           <div class="rockerbox">
             <div class="row">
-              <div class="col-xs-12">
+              <div class="col-xs-12 col-sm-12 col-md-12">
                 Rockerbox
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                Puntini
               </div>
             </div>
           </div>
@@ -264,12 +294,12 @@
       <div class="container-fluid">
         <div class="oceanteam_container">
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               <h1>Get Started</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-12 col-md-12">
               Create your account button
             </div>
           </div>
@@ -284,19 +314,19 @@
         <div class="container-fluid">
           <div class="footer_container">
             <div class="row">
-              <div class="col-xs-4">
+              <div class="col-xs-12 col-sm-12 col-md-4">
                 1
               </div>
-              <div class="col-xs-2">
+              <div class="col-xs-12 col-sm-6 col-md-2">
                 2
               </div>
-              <div class="col-xs-2">
+              <div class="col-xs-12 col-sm-6 col-md-2">
                 3
               </div>
-              <div class="col-xs-2">
+              <div class="col-xs-12 col-sm-6 col-md-2">
                 4
               </div>
-              <div class="col-xs-2">
+              <div class="col-xs-12 col-sm-6 col-md-2">
                 5
               </div>
 

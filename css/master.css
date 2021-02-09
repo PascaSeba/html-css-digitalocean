@@ -4,26 +4,76 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
 
 
+/* Media query */
+@media screen and (min-width:1183px) {
+
+  .hamburger {
+    display: none;
+  }
+}
+
+
+/* (prima era max-width: 992) */
+@media screen and (min-width: 768px) and (max-width: 1183px) {
+  .menu, .menu_2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu, .menu_2 {
+    display: none;
+  }
+}
+/* Fine media query */
+
+
+/* Contenitori */
 .ms-fluid-container {
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .ms_container {
-  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.ms_mini_container {
+  max-width: 70%;
   margin: 0 auto;
 }
 
 [class*="col-"] {
-  background-color: magenta;
-  border: 1px solid black;
+  /* background-color: magenta;
+  border: 1px solid black; */
 }
+/* Fine contenitori */
+
+
 /* Inizio header */
 .header_top {
-  width: 100%;
-  background-color: magenta;
+  max-width: 100%;
+  background-color: white;
+  height: 50px;
+}
+
+.ms_container {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .hamburger {
@@ -32,35 +82,129 @@
 .hamburger a {
   color: black;
   text-decoration: none;
+  line-height: 50px;
+}
+
+.header_top a {
+  color: black;
+  text-decoration: none;
+}
+
+.ms_signup_btn {
+  border: 1px solid blue;
+  color: blue;
+}
+.ms_signup_btn:hover {
+  background-color: aqua;
+}
+
+.down::after {
+  content: "\25BE";
+}
+
+.menu, .menu_2, .button, .logoclass {
+  line-height: 52px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+.menu ul li, .menu_2 ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+.menu_2 {
+  text-align: right;
+}
+
+.logoclass {
+  max-width: 30%;
+}
+
+#logo {
+  width: 180px;
+  vertical-align: middle;
 }
 
 /* Inizio banner */
-.ms_jumbotron {
-  height: 50vh;
-  background-color: skyblue;
+.jumbo_container {
+  background-image: url(../img/bg_jumbotron.svg);
+  height: 60vh;
+  background-position: bottom;
+  background-size: cover;
 }
-
-.ms_jumbo_container {
-  width: 95%;
-  height: 20vh;
-  background-color: magenta;
-  margin: 0 auto;
+.headertext {
+  padding-right: 5%;
 }
-
-.ms_jumbotron .ms_container {
-  height: 20vh;
-  background-color: magenta;
+.headertext_1, .headertext_2 {
+  color: white;
 }
-
-.Logos_container {
-  width: 70%;
+.headertext_1 {
+  margin-top: 16%;
+  font-size: 3em;
+  font-weight: 900;
 }
-
+.headertext_2 {
+  font-size: 1.2em;
+}
+.bannerwhite {
+  background-color: white;
+  margin-top: 4.5%;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 30px;
+}
+.blueh2 {
+  color: blue;
+}
+.email_btn, .google_btn {
+  width: 100%;
+}
+.google_btn {
+  background-color: white;
+  border: 1.5px solid black;
+  color: black;
+  position: relative;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.google_btn:hover {
+  background-color: lightgrey;
+  color: blue;
+}
+.google_btn img {
+  width: 5%;
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
 /* Fine banner */
 
 
-/* <!-- Inizio sezione loghi -->
-<!-- Fine sezione loghi --> */
+/* <!-- Inizio sezione loghi --> */
+
+.innovative {
+  background-color: #f3f5f9;
+}
+.innovative h3 {
+  padding-bottom: 30px;
+}
+.row_innovative {
+  width: 60%;
+  margin: 0 auto;
+}
+.gitlab {
+  width: 90%;
+}
+.row_innovative {
+  line-height: 50px;
+}
+.imagelogo {
+  min-width: 100%;
+}
+/*<!-- Fine sezione loghi --> */
 
 
 /* <!-- Inizio sezione deploy -->

@@ -280,26 +280,95 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* <!-- Inizio sezione "The features your business needs" -->*/
-
+.features {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.features h2 {
+  padding-bottom: 15px;
+}
 /*<!-- Fine sezione "The features your business needs" --> */
 
 
 /* <!-- Inizio sezione "Regions" --!> */
-.speedtest_1 {
-  padding: 20px 0;
+.regions, .oceanteam {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.regions, .account {
+  background: linear-gradient(0deg, rgba(0,43,166,1) 7%, rgba(23,79,205,1) 51%, rgba(32,40,187,1) 94%);
+  color: white;
+}
+.borderegions {
+  border-bottom: 1.5px solid grey;
+  padding: 5px 0;
+}
+.sep_regions {
+  padding-right: 50px;
+}
+.regionstext_1 {
+  float: left;
+  color: white;
+  font-weight: inherit;
+}
+.regionstext_2 {
+  color: lightgrey;
+  font-weight: inherit;
+}
+.regionstext_3 {
+  float: right;
+  color: lightgrey;
+}
+.regionstext_2, .regionstext_3 {
+  font-weight: lighter;
+}
+.regions h2 {
+  padding-bottom: 15px;
 }
 /* <!-- Fine sezione "Regions" --!> */
 
 
 /* <!-- Inizio sezione "Development Team" --> */
+.oceanteam {
+  background-color: #f3f5f9;
+}
 .oceanteam_container {
   width: 60%;
   margin: 0 auto;
+}
+.rockerbox {
+  margin-top: 20px
+}
+.rockerboxcontainer {
+  background-color: white;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 5%;
+}
+.rockerbox img {
+  max-width: 100%;
+}
+.author {
+  font-weight: 900;
+}
+.author, .developers {
+  display: block;
+}
+.developers {
+  padding-bottom: 15px;
+  font-weight: lighter;
+}
+.rockerboxcontainer p {
+  padding-top: 20px;
+  color: grey;
 }
 /* <!-- Fine sezione "Development Team" --> */
 
 
 /* <!-- Inizio sezione "crea il tuo account" --> */
+.account {
+  text-align: center;
+}
 /* <!-- Fine sezione "crea il tuo account" --> */
 
 

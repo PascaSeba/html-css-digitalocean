@@ -8,6 +8,7 @@ body {
   font-family: 'Heebo', sans-serif;
   font-size: 16px;
   font-weight: bold;
+  overflow-x: hidden;
 }
 
 .clearfix {
@@ -16,7 +17,9 @@ body {
   clear: both;
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
 /* Media query */
 @media screen and (min-width:1183px) {
 
@@ -57,10 +60,13 @@ body {
   margin: 0 auto;
 }
 
-[class*="col-"] {
-  /* background-color: magenta;
-  border: 1px solid black; */
+.wrapper {
+  width: 100%;
 }
+/* [class*="col-"] {
+  background-color: magenta;
+  border: 1px solid black;
+} */
 /* Fine contenitori */
 
 
@@ -133,6 +139,7 @@ body {
   height: 60vh;
   background-position: bottom;
   background-size: cover;
+  padding-bottom: 30px;
 }
 .headertext {
   padding-right: 5%;
@@ -143,7 +150,6 @@ body {
 .headertext_1 {
   margin-top: 16%;
   font-size: 3em;
-  font-weight: 900;
 }
 .headertext_2 {
   font-size: 1.2em;
@@ -152,8 +158,8 @@ body {
   background-color: white;
   margin-top: 4.5%;
   text-align: center;
-  width: 40%;
-  padding-bottom: 30px;
+  min-width: 30%;
+  padding-bottom: 20px;
 }
 .blueh2 {
   color: blue;
@@ -180,6 +186,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
 /* Fine banner */
 
 
@@ -187,6 +194,7 @@ body {
 
 .innovative {
   background-color: #f3f5f9;
+  padding: 25px 0;
 }
 .innovative h3 {
   padding-bottom: 30px;
@@ -202,21 +210,78 @@ body {
   line-height: 50px;
 }
 .imagelogo {
+  max-width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.imagelogo img {
+  max-width: calc(100% / 6);
   min-width: 100%;
+  vertical-align: middle;
+}
+
+.stories {
+  text-align: center;
+  padding-top: 15px;
+}
+.stories a {
+  font-size: 1.2em;
+  text-decoration: none;
 }
 /*<!-- Fine sezione loghi --> */
 
 
-/* <!-- Inizio sezione deploy -->
-<!-- Fine sezione deploy --> */
+/* <!-- Inizio sezione deploy -->*/
+.deploy_body ul li {
+  list-style-type: none;
+  color: grey;
+  border-left: 1px solid grey;
+  padding-left: 5px;
+}
+
+.deployhead h1, .designedtext_1 {
+  font-size: 2.5em;
+}
+.deployhead p, .designedtext_2 {
+  font-size: 1.222em;
+}
+
+/*<!-- Fine sezione deploy --> */
 
 
-/* <!-- Inizio sezione "Designed for developers" -->
-<!-- Fine sezione "Designed for developers" --> */
+/* <!-- Inizio sezione "Designed for developers" -->*/
+.designed {
+  background-color: #f3f5f9;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.designedimage img {
+  max-width: 35%;
+}
+
+.dots {
+  padding-top: 15px;
+}
+.nav-dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(10, 52, 48, 0.93);
+}
+.nav-dot:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+/*<!-- Fine sezione "Designed for developers" --> */
 
 
-/* <!-- Inizio sezione "The features your business needs" -->
-<!-- Fine sezione "The features your business needs" --> */
+/* <!-- Inizio sezione "The features your business needs" -->*/
+
+/*<!-- Fine sezione "The features your business needs" --> */
 
 
 /* <!-- Inizio sezione "Regions" --!> */

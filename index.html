@@ -81,35 +81,37 @@
 
     <main>
       <!-- Inizio sezione loghi -->
-      <div class="container-fluid innovative">
+      <div class="wrapper innovative">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12">
             <h3 class="text-center">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
           </div>
         </div>
-        <div class="row row_innovative">
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_docker.svg" alt="">
-          </div>
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_gitlab.svg" alt="">
-          </div>
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_slack.svg" alt="">
-          </div>
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_hashicorp.svg" alt="">
-          </div>
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_hashicorp.svg" alt="">
-          </div>
-          <div class="col-xs-6 col-sm-2 col-md-2">
-            <img src="img/logo_splunk.svg" alt="">
+        <div class="ms_mini_container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_docker.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_gitlab.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_slack.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_hashicorp.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_hashicorp.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 imagelogo">
+              <img src="img/logo_splunk.svg" alt="">
+            </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            View customer stories <span>></span>
+          <div class="col-xs-12 col-sm-12 col-md-12 stories">
+            <a href="#">View customer stories <span>></span></a>
           </div>
         </div>
       </div>
@@ -117,29 +119,47 @@
 
 
       <!-- Inizio sezione deploy -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <h1>Deploy and scale seamlessly</h1>
-            <p>Loreeeeem Ips and um</p>
+      <div class="wrapper">
+        <div class="ms_mini_container">
+          <div class="row text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 deployhead">
+              <h1>Deploy and scale seamlessly</h1>
+              <p>Our optimazed configuration process saves your team time when running and scaling distributed applications, Al & machine learning workloads, hosted services, client websites or CI/CD environments.</p>
+            </div>
           </div>
-        </div>
-        <div class="deploy_body">
-          <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              List
+          <div class="deploy_body">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <ul>
+                  <li>Deploy</li>
+                  <li>Manage</li>
+                  <li>Secure</li>
+                  <li>Scale</li>
+                  <li>Monitor</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <img src="img/cluster-deploy.svg" alt="">
+                <h4>Cluster deployments</h4>
+                <p>Provisions multiple Droplets (virtual machines) in seconds with our control panel, CLI or directly against our API.</p>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <img src="img/optimized-compute.svg" alt="">
+                <h4>Optimized compute types</h4>
+                <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              Cluster
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
-              Optimized
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              One-click
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">
-              Global
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-offset-4 col-md-4">
+                <img src="img/one-click.svg" alt="">
+                <h4>One-click apps</h4>
+                <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="img/global.svg" alt="">
+                <h4>Global availability</h4>
+                <p>Deploy to any of our data center regions around the world.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -148,20 +168,23 @@
 
 
       <!-- Inizio sezione "Designed for developers" -->
-      <div class="container-fluid">
+      <div class="wrapper designed">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            <h2>Designed for developers</h2>
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+            <h2 class="designedtext_1">Designed for developers</h2>
+            <p class="designedtext_2">Build more and spend less time managing your infrastructure with our easy-to-use control panel API.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            image
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center designedimage">
+            <img src="img/screenshot-createdroplet.jpg" alt="">
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12">
-            puntini
+          <div class="col-xs-12 col-sm-12 col-md-12 text-center dots">
+            <div class="nav-dot"></div>
+            <div class="nav-dot"></div>
+            <div class="nav-dot"></div>
           </div>
         </div>
       </div>
@@ -169,24 +192,24 @@
 
 
       <!-- Inizio sezione "The features your business needs" -->
-      <div class="container-fluid">
+      <div class="wrapper features">
         <div class="business_container">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
-              <h1>The features your business needs</h1>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+              <h2>The features your business needs</h2>
             </div>
           </div>
 
           <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4">
-              <span>image</span>
+              <img src="img/pred-pricing.svg" alt="">
               <h4>Title1</h4>
               <p>paragraph 1</p>
               <a href="#">Pricing ></a>
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4">
-              <span>image</span>
+              <img src="img/world-class.svg" alt="">
               <h4>Title 2</h4>
               <p>paragraph 2</p>
               <a href="#">Pricing ></a>
@@ -194,7 +217,7 @@
 
 
             <div class="col-xs-12 col-sm-4 col-md-4">
-              <span>image</span>
+              <img src="img/reliable-platform.svg" alt="">
               <h4>Title 3</h4>
               <p>paragraph 3</p>
               <div><a href="#">Security ></a></div>
@@ -206,7 +229,7 @@
 
 
       <!-- Inizio sezione "Regions" -->
-      <div class="container-fluid">
+      <div class="wrapper">
         <div class="regionscontainer">
           <div class="row">
             <div class="col-xs-12 col-sm-12">
@@ -268,7 +291,7 @@
 
 
       <!-- Inizio sezione "Development Team" -->
-      <div class="container-fluid">
+      <div class="wrapper">
         <div class="oceanteam_container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -291,7 +314,7 @@
 
 
       <!-- Inizio sezione "crea il tuo account" -->
-      <div class="container-fluid">
+      <div class="wrapper">
         <div class="oceanteam_container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
@@ -311,7 +334,7 @@
 
       <!-- Inizio sezione del footer -->
       <footer>
-        <div class="container-fluid">
+        <div class="wrapper">
           <div class="footer_container">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-4">

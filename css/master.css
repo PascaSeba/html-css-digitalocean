@@ -241,7 +241,9 @@ h1, h2, h3, h4, h5, h6 {
 .designedimage img {
   max-width: 35%;
 }
-
+.designedimage {
+  position: relative;
+}
 .dots {
   padding-top: 10px;
 }
@@ -249,7 +251,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 10px;
   height: 10px;
   margin: 0 4px;
-  position: relative;
   border-radius: 100%;
   display: inline-block;
   background-color: rgba(10, 52, 48, 0.93);
@@ -260,6 +261,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .designedparagraph {
   padding-top: 20px;
+}
+
+.frecciadestra {
+  position: absolute;
+  right: 31%;
+  top: 50%;
+  font-size: 2em;
+  transform: translateY(-50%);
+}
+.frecciasinistra {
+  position: absolute;
+  left: 31%;
+  top: 50%;
+  font-size: 2em;
+  transform: translateY(-50%);
 }
 /*<!-- Fine sezione "Designed for developers" --> */
 
@@ -328,6 +344,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 50%;
   margin: 0 auto;
   padding: 5%;
+  position: relative;
 }
 .rockerbox img {
   max-width: 100%;
@@ -345,6 +362,12 @@ h1, h2, h3, h4, h5, h6 {
 .rockerboxcontainer p {
   padding-top: 20px;
   color: grey;
+}
+.frecciarocker_right {
+  right: -5%;
+}
+.frecciarocker_left {
+  left: -5%;
 }
 /* <!-- Fine sezione "Development Team" --> */
 
